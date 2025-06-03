@@ -1,10 +1,5 @@
-// components/ContactForm.js
 import React, { useState } from 'react';
 
-/**
- * ContactForm component for submitting inquiries.
- * Handles form state, submission, and displays success/error messages.
- */
 const ContactForm = () => {
   const [formData, setFormData] = useState({
     name: '',
@@ -13,10 +8,6 @@ const ContactForm = () => {
   });
   const [status, setStatus] = useState(''); // 'loading', 'success', 'error'
 
-  /**
-   * Handles changes to form input fields.
-   * @param {Object} e - The event object from the input change.
-   */
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData((prevData) => ({
@@ -25,11 +16,7 @@ const ContactForm = () => {
     }));
   };
 
-  /**
-   * Handles form submission.
-   * Sends form data to the /api/contact endpoint.
-   * @param {Object} e - The event object from the form submission.
-   */
+
   const handleSubmit = async (e) => {
     e.preventDefault();
     setStatus('loading');
