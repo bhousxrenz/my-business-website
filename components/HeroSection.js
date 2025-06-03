@@ -1,10 +1,5 @@
-// components/HeroSection.js
 import React from 'react';
 
-/**
- * HeroSection component for the business website's homepage.
- * Features a compelling headline, a brief description, and a call-to-action button.
- */
 const HeroSection = () => {
   return (
     <section id="home" className="bg-gradient-to-br from-blue-600 to-purple-700 text-white py-20 px-4 sm:px-6 lg:px-8 flex items-center justify-center min-h-[500px] rounded-xl shadow-lg">
