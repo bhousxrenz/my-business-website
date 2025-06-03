@@ -6,7 +6,7 @@ const ContactForm = () => {
     email: '',
     message: '',
   });
-  const [status, setStatus] = useState(''); // 'loading', 'success', 'error'
+  const [status, setStatus] = useState(''); 
 
   const handleChange = (e) => {
     const { name, value } = e.target;
