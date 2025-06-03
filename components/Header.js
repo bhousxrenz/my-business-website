@@ -1,10 +1,5 @@
-// components/Header.js
 import React from 'react';
 
-/**
- * Header component for the business website.
- * Provides navigation links and the site's branding.
- */
 const Header = () => {
   return (
     <header className="bg-gradient-to-r from-indigo-700 to-purple-800 text-white p-4 shadow-lg rounded-b-lg">
