@@ -1,10 +1,5 @@
-// components/ServicesSection.js
 import React from 'react';
 
-/**
- * ServicesSection component for the business website.
- * Displays a list of key services offered by the business.
- */
 const ServicesSection = () => {
   const services = [
     {
