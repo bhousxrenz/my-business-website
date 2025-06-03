@@ -1,10 +1,5 @@
-// components/AboutSection.js
 import React from 'react';
 
-/**
- * AboutSection component for the business website.
- * Provides a brief overview of the company's mission and values.
- */
 const AboutSection = () => {
   return (
     <section id="about" className="py-20 px-4 sm:px-6 lg:px-8 bg-white rounded-xl shadow-md">
