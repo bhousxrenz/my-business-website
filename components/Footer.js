@@ -1,10 +1,5 @@
-// components/Footer.js
 import React from 'react';
 
-/**
- * Footer component for the business website.
- * Displays copyright information and other relevant links.
- */
 const Footer = () => {
   return (
     <footer className="bg-gray-900 text-gray-300 p-8 text-center text-sm rounded-t-lg shadow-inner">
