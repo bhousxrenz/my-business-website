@@ -1,4 +1,3 @@
-// pages/_app.js
 import '../styles/globals.css'; // <--- This line is essential for global styles
 
 function MyApp({ Component, pageProps }) {
